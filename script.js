@@ -30,4 +30,3 @@ messageForm.addEventListener('submit', (event) => {
     messageInput.value = '';
   }
 });
-
