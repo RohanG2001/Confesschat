@@ -22,6 +22,10 @@ body {
     padding: 10px;
   }
   
+  a {
+    text-decoration: none;
+  }
+
   .message {
     margin-bottom: 10px;
   }
@@ -126,7 +130,7 @@ body {
     color: #4caf50;
     margin-bottom: 20px;
   }
-
+  
   .join {
     background-color: #4caf50;
     color: #fff;
@@ -140,6 +144,4 @@ body {
   .join {
     background-color: #3e8e41;
 
-  }
-  
-  
+  } 
