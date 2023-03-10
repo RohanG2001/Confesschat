@@ -64,6 +64,7 @@ input[type="button"] {
   padding: 10px;
   font-size: 16px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 /* Set the font size and color for the footer */
