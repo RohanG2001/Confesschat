@@ -14,6 +14,11 @@ body {
     display: inline-block;
   }
 
+  img[alt="logog"] {
+    width: 100px;
+    height: 100px;
+  }
+  
   
   .tnc {
     padding: 1em;
@@ -78,7 +83,7 @@ body {
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 30px;
-    cursor: crosshair;
+    cursor: pointer;
   }
 
   input[type="button"]:hover {
