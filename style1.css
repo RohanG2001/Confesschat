@@ -88,3 +88,24 @@ a {
     max-height: 350px;
   }
 }
+
+  
+  .username {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .join {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .join {
+    background-color: #3e8e41;
+
+  } 
