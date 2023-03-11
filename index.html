@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon/c.ico" type="image/x-icon">
+
+    <title>ConfessChat</title>
+</head>
+<body>
+    <a href="index.html"><img src="images/favicon/c.ico" alt="logog"></a>
+    <div class="main">
+        <div class="tnc">
+            <p>We would like to make it clear that this website is not intended for spreading hate towards any community or promoting religious intolerance. We strongly condemn any kind of discrimination and hateful behavior. Users are advised to refrain from using this platform to spread hatred or incite violence against any individual or group of people.
+
+While we respect the right to free speech and encourage healthy debates, we do not endorse the use of vulgar language or derogatory comments towards any community, ethnicity, or religious group. Any content that violates these guidelines will be removed immediately without any prior notice.
+
+We believe in creating a safe and inclusive space for everyone, regardless of their background or beliefs. Therefore, we request all users to be mindful of their language and behavior while using this website. Your cooperation in this matter is highly appreciated. 
+            </p>
+           
+            <div class="list">
+                <p>
+                    Do you agree to the terms below.
+                </p>
+                <ul>
+                    <li>
+                        <ol>No Religious Hatered.</ol>
+                        
+                    </li>
+                    <li>
+                        <ol>Keep yourself anonymous</ol>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <div class="tick">
+            Do you agree with the terms and conditions mentioned above? <br>
+            <input type="checkbox" id="checkbox1" required>
+<label for="checkbox1">Click Here</label>
+         </div>
+         <div class="suli">
+            <a href="signup.html"><input type="button" id="su" value="SignUp"></a>
+            <a href="login.html"><input type="button" id="li" value="LogIn"></a>
+         </div>
+    </div>
+    <script>
+        const checkbox = document.getElementById("checkbox1");
+        
+        const signupButton = document.getElementById("su");
+        const loginButton = document.getElementById("li");
+        
+        signupButton.disabled = true;
+        loginButton.disabled = true;
+        
+        checkbox.addEventListener("change", function() {
+          if (checkbox.checked) {
+            signupButton.disabled = false;
+            loginButton.disabled = false;
+          } else {
+            signupButton.disabled = true;
+            loginButton.disabled = true;
+          }
+        });
+        </script>
+</body>
+</html>
