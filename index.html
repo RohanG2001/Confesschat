@@ -46,5 +46,24 @@ We believe in creating a safe and inclusive space for everyone, regardless of th
             <a href="login.html"><input type="button" id="li" value="LogIn"></a>
          </div>
     </div>
+    <script>
+        const checkbox = document.getElementById("checkbox1");
+        
+        const signupButton = document.getElementById("su");
+        const loginButton = document.getElementById("li");
+        
+        signupButton.disabled = true;
+        loginButton.disabled = true;
+        
+        checkbox.addEventListener("change", function() {
+          if (checkbox.checked) {
+            signupButton.disabled = false;
+            loginButton.disabled = false;
+          } else {
+            signupButton.disabled = true;
+            loginButton.disabled = true;
+          }
+        });
+        </script>
 </body>
 </html>
